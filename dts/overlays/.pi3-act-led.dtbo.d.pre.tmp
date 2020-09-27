@@ -1,0 +1,2 @@
+pi3-act-led-overlay.o: arch/arm/boot/dts/overlays/pi3-act-led-overlay.dts \
+ arch/arm/boot/dts/overlays/act-led-overlay.dts

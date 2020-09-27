@@ -1,0 +1,1 @@
+disable-bt-overlay.o: arch/arm/boot/dts/overlays/disable-bt-overlay.dts

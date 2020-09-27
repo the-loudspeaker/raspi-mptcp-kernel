@@ -1,0 +1,2 @@
+vc4-fkms-v3d-overlay.o: \
+ arch/arm/boot/dts/overlays/vc4-fkms-v3d-overlay.dts

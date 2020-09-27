@@ -1,0 +1,1 @@
+sdtweak-overlay.o: arch/arm/boot/dts/overlays/sdtweak-overlay.dts

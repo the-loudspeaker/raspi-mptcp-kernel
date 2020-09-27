@@ -1,0 +1,2 @@
+bmp085_i2c-sensor-overlay.o: \
+ arch/arm/boot/dts/overlays/bmp085_i2c-sensor-overlay.dts
