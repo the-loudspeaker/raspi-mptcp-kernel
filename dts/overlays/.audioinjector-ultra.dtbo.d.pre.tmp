@@ -1,2 +1,0 @@
-audioinjector-ultra-overlay.o: \
- arch/arm/boot/dts/overlays/audioinjector-ultra-overlay.dts

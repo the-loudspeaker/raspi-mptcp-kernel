@@ -1,1 +1,0 @@
-arch/arm/boot/dts/overlays/spi-rtc.dtbo: arch/arm/boot/dts/overlays/.spi-rtc.dtbo.dts.tmp

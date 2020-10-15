@@ -1,1 +1,0 @@
-arch/arm/boot/dts/overlays/uart2.dtbo: arch/arm/boot/dts/overlays/.uart2.dtbo.dts.tmp

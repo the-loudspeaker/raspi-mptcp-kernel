@@ -1,1 +1,0 @@
-papirus-overlay.o: arch/arm/boot/dts/overlays/papirus-overlay.dts

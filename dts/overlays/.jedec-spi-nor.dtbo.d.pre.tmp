@@ -1,2 +1,0 @@
-jedec-spi-nor-overlay.o: \
- arch/arm/boot/dts/overlays/jedec-spi-nor-overlay.dts

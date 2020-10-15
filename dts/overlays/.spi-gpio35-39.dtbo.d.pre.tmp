@@ -1,2 +1,0 @@
-spi-gpio35-39-overlay.o: \
- arch/arm/boot/dts/overlays/spi-gpio35-39-overlay.dts

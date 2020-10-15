@@ -1,1 +1,0 @@
-arch/arm/boot/dts/overlays/pwm-ir-tx.dtbo: arch/arm/boot/dts/overlays/.pwm-ir-tx.dtbo.dts.tmp

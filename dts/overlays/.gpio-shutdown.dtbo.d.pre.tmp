@@ -1,2 +1,0 @@
-gpio-shutdown-overlay.o: \
- arch/arm/boot/dts/overlays/gpio-shutdown-overlay.dts

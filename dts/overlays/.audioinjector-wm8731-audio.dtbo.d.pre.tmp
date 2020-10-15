@@ -1,2 +1,0 @@
-audioinjector-wm8731-audio-overlay.o: \
- arch/arm/boot/dts/overlays/audioinjector-wm8731-audio-overlay.dts

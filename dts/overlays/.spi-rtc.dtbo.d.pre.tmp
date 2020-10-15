@@ -1,1 +1,0 @@
-spi-rtc-overlay.o: arch/arm/boot/dts/overlays/spi-rtc-overlay.dts

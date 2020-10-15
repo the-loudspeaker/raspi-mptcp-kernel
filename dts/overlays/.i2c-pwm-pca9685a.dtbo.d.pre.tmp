@@ -1,2 +1,0 @@
-i2c-pwm-pca9685a-overlay.o: \
- arch/arm/boot/dts/overlays/i2c-pwm-pca9685a-overlay.dts

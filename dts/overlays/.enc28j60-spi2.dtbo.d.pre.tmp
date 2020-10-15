@@ -1,2 +1,0 @@
-enc28j60-spi2-overlay.o: \
- arch/arm/boot/dts/overlays/enc28j60-spi2-overlay.dts

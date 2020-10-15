@@ -1,1 +1,0 @@
-pwm-ir-tx-overlay.o: arch/arm/boot/dts/overlays/pwm-ir-tx-overlay.dts

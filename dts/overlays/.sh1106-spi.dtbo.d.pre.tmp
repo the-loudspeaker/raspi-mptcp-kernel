@@ -1,1 +1,0 @@
-sh1106-spi-overlay.o: arch/arm/boot/dts/overlays/sh1106-spi-overlay.dts

@@ -1,2 +1,0 @@
-googlevoicehat-soundcard-overlay.o: \
- arch/arm/boot/dts/overlays/googlevoicehat-soundcard-overlay.dts
