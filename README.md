@@ -1,7 +1,7 @@
 # MPTCP kernel for Raspbeery Pi4
 
 ## Steps to install:
-1. Clone this repo.
+1. Clone this repo, checkout the raspi-4 branch and ```cd``` into it
 2. Plug in your raspberry pi sdcard. which has raspbian installed on it.
 3. Make sure you know which device it is (sdb1, sdb2, etc)
 4. Set kernel for Pi4.
