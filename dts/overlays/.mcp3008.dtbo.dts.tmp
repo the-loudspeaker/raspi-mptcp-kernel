@@ -1,4 +1,5 @@
 # 1 "arch/arm/boot/dts/overlays/mcp3008-overlay.dts"
+# 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "arch/arm/boot/dts/overlays/mcp3008-overlay.dts"
 
@@ -75,7 +76,7 @@
    #size-cells = <0>;
 
    mcp3008_00: mcp3008@0 {
-    compatible = "mcp3008";
+    compatible = "microchip,mcp3008";
     reg = <0>;
     spi-max-frequency = <1600000>;
    };
@@ -90,7 +91,7 @@
    #size-cells = <0>;
 
    mcp3008_01: mcp3008@1 {
-    compatible = "mcp3008";
+    compatible = "microchip,mcp3008";
     reg = <1>;
     spi-max-frequency = <1600000>;
    };
@@ -105,7 +106,7 @@
    #size-cells = <0>;
 
    mcp3008_10: mcp3008@0 {
-    compatible = "mcp3008";
+    compatible = "microchip,mcp3008";
     reg = <0>;
     spi-max-frequency = <1600000>;
    };
@@ -120,7 +121,7 @@
    #size-cells = <0>;
 
    mcp3008_11: mcp3008@1 {
-    compatible = "mcp3008";
+    compatible = "microchip,mcp3008";
     reg = <1>;
     spi-max-frequency = <1600000>;
    };
@@ -135,7 +136,7 @@
    #size-cells = <0>;
 
    mcp3008_12: mcp3008@2 {
-    compatible = "mcp3008";
+    compatible = "microchip,mcp3008";
     reg = <2>;
     spi-max-frequency = <1600000>;
    };
@@ -150,7 +151,7 @@
    #size-cells = <0>;
 
    mcp3008_20: mcp3008@0 {
-    compatible = "mcp3008";
+    compatible = "microchip,mcp3008";
     reg = <0>;
     spi-max-frequency = <1600000>;
    };
@@ -165,7 +166,7 @@
    #size-cells = <0>;
 
    mcp3008_21: mcp3008@1 {
-    compatible = "mcp3008";
+    compatible = "microchip,mcp3008";
     reg = <1>;
     spi-max-frequency = <1600000>;
    };
@@ -180,7 +181,7 @@
    #size-cells = <0>;
 
    mcp3008_22: mcp3008@2 {
-    compatible = "mcp3008";
+    compatible = "microchip,mcp3008";
     reg = <2>;
     spi-max-frequency = <1600000>;
    };

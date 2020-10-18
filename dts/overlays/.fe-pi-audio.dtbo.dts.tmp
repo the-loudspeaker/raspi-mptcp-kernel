@@ -1,4 +1,5 @@
 # 1 "arch/arm/boot/dts/overlays/fe-pi-audio-overlay.dts"
+# 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "arch/arm/boot/dts/overlays/fe-pi-audio-overlay.dts"
 
@@ -9,7 +10,7 @@
  compatible = "brcm,bcm2835";
 
  fragment@0 {
-  target = <&clocks>;
+  target-path = "/";
   __overlay__ {
    sgtl5000_mclk: sgtl5000_mclk {
     compatible = "fixed-clock";

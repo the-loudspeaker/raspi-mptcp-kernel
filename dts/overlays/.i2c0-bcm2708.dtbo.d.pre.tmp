@@ -1,3 +1,0 @@
-i2c0-bcm2708-overlay.o: \
- arch/arm/boot/dts/overlays/i2c0-bcm2708-overlay.dts \
- arch/arm/boot/dts/overlays/i2c0-overlay.dts

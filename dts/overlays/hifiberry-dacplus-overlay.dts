@@ -6,7 +6,7 @@
 	compatible = "brcm,bcm2835";
 
 	fragment@0 {
-		target-path = "/clocks";
+		target-path = "/";
 		__overlay__ {
 			dacpro_osc: dacpro_osc {
 				compatible = "hifiberry,dacpro-clk";
@@ -38,6 +38,11 @@
 				DVDD-supply = <&vdd_3v3_reg>;
 				CPVDD-supply = <&vdd_3v3_reg>;
 				status = "okay";
+			};
+			hpamp: hpamp@60 {
+				compatible = "ti,tpa6130a2";
+				reg = <0x60>;
+				status = "disabled";
 			};
 		};
 	};

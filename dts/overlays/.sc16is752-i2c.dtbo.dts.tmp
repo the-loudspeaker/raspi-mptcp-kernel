@@ -1,4 +1,5 @@
 # 1 "arch/arm/boot/dts/overlays/sc16is752-i2c-overlay.dts"
+# 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "arch/arm/boot/dts/overlays/sc16is752-i2c-overlay.dts"
 /dts-v1/;
@@ -8,9 +9,8 @@
  compatible = "brcm,bcm2835";
 
  fragment@0 {
-  target = <&i2c1>;
-
-  frag1: __overlay__ {
+  target = <&i2c_arm>;
+  __overlay__ {
    #address-cells = <1>;
    #size-cells = <0>;
    status = "okay";
@@ -20,17 +20,21 @@
     reg = <0x48>;
     clocks = <&sc16is752_clk>;
     interrupt-parent = <&gpio>;
-    interrupts = <24 0x2>;
+    interrupts = <24 2>;
     gpio-controller;
-    #gpio-cells = <0>;
+    #gpio-cells = <2>;
     i2c-max-frequency = <400000>;
-    status = "okay";
+   };
+  };
+ };
 
-    sc16is752_clk: sc16is752_clk {
-     compatible = "fixed-clock";
-     #clock-cells = <0>;
-     clock-frequency = <14745600>;
-    };
+ fragment@1 {
+  target-path = "/";
+  __overlay__ {
+   sc16is752_clk: sc16is752_i2c_clk@48 {
+    compatible = "fixed-clock";
+    #clock-cells = <0>;
+    clock-frequency = <14745600>;
    };
   };
  };

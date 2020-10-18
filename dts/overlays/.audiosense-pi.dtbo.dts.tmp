@@ -1,4 +1,5 @@
 # 1 "arch/arm/boot/dts/overlays/audiosense-pi-overlay.dts"
+# 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "arch/arm/boot/dts/overlays/audiosense-pi-overlay.dts"
 
@@ -29,6 +30,13 @@
     regulator-max-microvolt = <1800000>;
     regulator-always-on;
    };
+
+
+   codec_osc: codec_osc {
+    compatible = "fixed-clock";
+    #clock-cells = <0>;
+    clock-frequency = <12000000>;
+   };
   };
  };
 
@@ -48,13 +56,6 @@
    #address-cells = <1>;
    #size-cells = <0>;
    status = "okay";
-
-
-   codec_osc: codec_osc {
-    compatible = "fixed-clock";
-    #clock-cells = <0>;
-    clock-frequency = <12000000>;
-   };
 
    codec: tlv320aic32x4@18 {
     #sound-dai-cells = <0>;

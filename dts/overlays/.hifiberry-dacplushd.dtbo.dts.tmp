@@ -1,4 +1,5 @@
 # 1 "arch/arm/boot/dts/overlays/hifiberry-dacplushd-overlay.dts"
+# 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "arch/arm/boot/dts/overlays/hifiberry-dacplushd-overlay.dts"
 
@@ -12,7 +13,7 @@
  compatible = "brcm,bcm2835";
 
  fragment@0 {
-  target-path = "/clocks";
+  target-path = "/";
   __overlay__ {
    dachd_osc: pll_dachd_osc {
     compatible = "hifiberry,dachd-clk";

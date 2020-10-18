@@ -1,3 +1,0 @@
-pi3-miniuart-bt-overlay.o: \
- arch/arm/boot/dts/overlays/pi3-miniuart-bt-overlay.dts \
- arch/arm/boot/dts/overlays/miniuart-bt-overlay.dts

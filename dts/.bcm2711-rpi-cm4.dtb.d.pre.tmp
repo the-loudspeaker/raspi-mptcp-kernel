@@ -1,0 +1,16 @@
+bcm2711-rpi-cm4.o: arch/arm/boot/dts/bcm2711-rpi-cm4.dts \
+ arch/arm/boot/dts/bcm2711.dtsi arch/arm/boot/dts/bcm283x.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/bcm2835.h \
+ scripts/dtc/include-prefixes/dt-bindings/clock/bcm2835.h \
+ scripts/dtc/include-prefixes/dt-bindings/clock/bcm2835-aux.h \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/soc/bcm2835-pm.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ arch/arm/boot/dts/bcm2835-rpi.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/power/raspberrypi-power.h \
+ arch/arm/boot/dts/bcm270x.dtsi arch/arm/boot/dts/bcm271x-rpi-bt.dtsi \
+ arch/arm/boot/dts/bcm2711-rpi.dtsi arch/arm/boot/dts/bcm270x-rpi.dtsi \
+ arch/arm/boot/dts/bcm283x-rpi-csi0-2lane.dtsi \
+ arch/arm/boot/dts/bcm283x-rpi-csi1-4lane.dtsi \
+ arch/arm/boot/dts/bcm283x-rpi-i2c0mux_0_44.dtsi

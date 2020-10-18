@@ -1,4 +1,5 @@
 # 1 "arch/arm/boot/dts/overlays/mcp2515-can1-overlay.dts"
+# 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "arch/arm/boot/dts/overlays/mcp2515-can1-overlay.dts"
 
@@ -38,7 +39,7 @@
 
 
     fragment@3 {
-        target-path = "/clocks";
+        target-path = "/";
         __overlay__ {
 
             can1_osc: can1_osc {

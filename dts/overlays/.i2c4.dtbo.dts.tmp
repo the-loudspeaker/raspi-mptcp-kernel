@@ -1,4 +1,5 @@
 # 1 "arch/arm/boot/dts/overlays/i2c4-overlay.dts"
+# 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "arch/arm/boot/dts/overlays/i2c4-overlay.dts"
 /dts-v1/;

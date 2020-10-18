@@ -1,4 +1,5 @@
 # 1 "arch/arm/boot/dts/overlays/ads1115-overlay.dts"
+# 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "arch/arm/boot/dts/overlays/ads1115-overlay.dts"
 
@@ -29,7 +30,7 @@
  };
 
  fragment@1 {
-  target-path = "i2c_arm/ads1115";
+  target = <&ads1115>;
   __dormant__ {
    #address-cells = <1>;
    #size-cells = <0>;
@@ -43,7 +44,7 @@
  };
 
  fragment@2 {
-  target-path = "i2c_arm/ads1115";
+  target = <&ads1115>;
   __dormant__ {
    #address-cells = <1>;
    #size-cells = <0>;
@@ -57,7 +58,7 @@
  };
 
  fragment@3 {
-  target-path = "i2c_arm/ads1115";
+  target = <&ads1115>;
   __dormant__ {
    #address-cells = <1>;
    #size-cells = <0>;
@@ -71,7 +72,7 @@
  };
 
  fragment@4 {
-  target-path = "i2c_arm/ads1115";
+  target = <&ads1115>;
   __dormant__ {
    #address-cells = <1>;
    #size-cells = <0>;

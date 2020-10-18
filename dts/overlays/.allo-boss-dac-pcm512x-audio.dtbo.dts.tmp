@@ -1,4 +1,5 @@
 # 1 "arch/arm/boot/dts/overlays/allo-boss-dac-pcm512x-audio-overlay.dts"
+# 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "arch/arm/boot/dts/overlays/allo-boss-dac-pcm512x-audio-overlay.dts"
 
@@ -12,7 +13,7 @@
  compatible = "brcm,bcm2835";
 
  fragment@0 {
-  target-path = "/clocks";
+  target-path = "/";
   __overlay__ {
    boss_osc: boss_osc {
     compatible = "allo,dac-clk";

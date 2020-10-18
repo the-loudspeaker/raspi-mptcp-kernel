@@ -1,4 +1,5 @@
 # 1 "arch/arm/boot/dts/overlays/sc16is752-spi0-overlay.dts"
+# 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "arch/arm/boot/dts/overlays/sc16is752-spi0-overlay.dts"
 /dts-v1/;
@@ -20,15 +21,9 @@
     clocks = <&sc16is752_clk>;
     interrupt-parent = <&gpio>;
     interrupts = <24 2>;
-    #gpio-controller;
+    gpio-controller;
     #gpio-cells = <2>;
     spi-max-frequency = <4000000>;
-
-    sc16is752_clk: sc16is752_clk {
-     compatible = "fixed-clock";
-     #clock-cells = <0>;
-     clock-frequency = <14745600>;
-    };
    };
   };
  };
@@ -40,8 +35,19 @@
   };
  };
 
+ fragment@2 {
+  target-path = "/";
+  __overlay__ {
+   sc16is752_clk: sc16is752_spi0_0_clk {
+    compatible = "fixed-clock";
+    #clock-cells = <0>;
+    clock-frequency = <14745600>;
+   };
+  };
+ };
+
  __overrides__ {
   int_pin = <&sc16is752>,"interrupts:0";
-  xtal = <&sc16is752_clk>, "clock-frequency:0";
+  xtal = <&sc16is752_clk>,"clock-frequency:0";
  };
 };
