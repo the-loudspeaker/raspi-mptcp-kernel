@@ -21,8 +21,8 @@ sudo​ ​ mount​ /dev/sdb7 mnt/ext4
 sudo cp 5.4.65-MPTCP+/ mnt/ext4/lib/modules/ -r
 sudo cp zImage mnt/fat32/​$KERNEL​.img
 sudo cp dts/*.dtb mnt/fat32/
-sudo cp dts/overlays/*.dtb* fat32/overlays/
-sudo cp dts/overlays/README fat32/overlays/
+sudo cp dts/overlays/*.dtb* mnt/fat32/overlays/
+sudo cp dts/overlays/README mnt/fat32/overlays/
 ```
 7. Unmount the partitions
 ```
