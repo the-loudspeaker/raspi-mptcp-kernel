@@ -1,2 +1,0 @@
-pisound-overlay.o: arch/arm/boot/dts/overlays/pisound-overlay.dts \
- scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h

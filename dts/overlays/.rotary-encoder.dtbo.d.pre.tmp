@@ -1,2 +1,0 @@
-rotary-encoder-overlay.o: \
- arch/arm/boot/dts/overlays/rotary-encoder-overlay.dts

@@ -1,2 +1,0 @@
-disable-wifi-overlay.o: \
- arch/arm/boot/dts/overlays/disable-wifi-overlay.dts

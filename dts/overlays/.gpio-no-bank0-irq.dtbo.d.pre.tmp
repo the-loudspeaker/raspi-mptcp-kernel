@@ -1,2 +1,0 @@
-gpio-no-bank0-irq-overlay.o: \
- arch/arm/boot/dts/overlays/gpio-no-bank0-irq-overlay.dts

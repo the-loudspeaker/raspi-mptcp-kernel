@@ -1,1 +1,0 @@
-goodix-overlay.o: arch/arm/boot/dts/overlays/goodix-overlay.dts

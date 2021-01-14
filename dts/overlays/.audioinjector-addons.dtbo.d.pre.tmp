@@ -1,2 +1,0 @@
-audioinjector-addons-overlay.o: \
- arch/arm/boot/dts/overlays/audioinjector-addons-overlay.dts

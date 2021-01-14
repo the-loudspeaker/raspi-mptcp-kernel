@@ -1,2 +1,0 @@
-hdmi-backlight-hwhack-gpio-overlay.o: \
- arch/arm/boot/dts/overlays/hdmi-backlight-hwhack-gpio-overlay.dts

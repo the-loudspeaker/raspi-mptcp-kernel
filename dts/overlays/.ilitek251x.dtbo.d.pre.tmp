@@ -1,1 +1,0 @@
-ilitek251x-overlay.o: arch/arm/boot/dts/overlays/ilitek251x-overlay.dts

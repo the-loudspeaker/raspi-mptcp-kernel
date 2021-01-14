@@ -1,2 +1,0 @@
-mcp2515-can0-overlay.o: \
- arch/arm/boot/dts/overlays/mcp2515-can0-overlay.dts

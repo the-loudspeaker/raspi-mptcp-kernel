@@ -1,2 +1,0 @@
-pitft35-resistive-overlay.o: \
- arch/arm/boot/dts/overlays/pitft35-resistive-overlay.dts

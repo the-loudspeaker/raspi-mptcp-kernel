@@ -1,1 +1,0 @@
-arch/arm/boot/dts/overlays/gpio-shutdown.dtbo: arch/arm/boot/dts/overlays/.gpio-shutdown.dtbo.dts.tmp

@@ -1,1 +1,0 @@
-i2c-mux-overlay.o: arch/arm/boot/dts/overlays/i2c-mux-overlay.dts

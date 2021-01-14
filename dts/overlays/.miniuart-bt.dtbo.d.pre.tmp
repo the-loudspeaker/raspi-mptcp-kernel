@@ -1,1 +1,0 @@
-miniuart-bt-overlay.o: arch/arm/boot/dts/overlays/miniuart-bt-overlay.dts

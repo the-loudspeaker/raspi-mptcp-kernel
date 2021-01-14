@@ -1,1 +1,0 @@
-tinylcd35-overlay.o: arch/arm/boot/dts/overlays/tinylcd35-overlay.dts

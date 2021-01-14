@@ -1,1 +1,0 @@
-rpi-proto-overlay.o: arch/arm/boot/dts/overlays/rpi-proto-overlay.dts

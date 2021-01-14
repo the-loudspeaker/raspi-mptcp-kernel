@@ -1,2 +1,0 @@
-adau7002-simple-overlay.o: \
- arch/arm/boot/dts/overlays/adau7002-simple-overlay.dts
