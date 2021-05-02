@@ -43,6 +43,9 @@ sudo umount mnt/ext4
 ## Steps on how to cross compile the kernel yourself and install on your raspberry Pi:
 
 
+Credit where credit is due: [@gokuu13](https://github.com/gokuu13) helped me with the cross compiling.
+
+
 Get required tools and accessories:
 
 ```
